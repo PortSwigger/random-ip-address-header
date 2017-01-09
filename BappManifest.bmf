@@ -1,0 +1,11 @@
+Uuid: 3a656c1be14148c6bf95642af42eb854
+ExtensionType: 1
+Name: Random IP Address Header
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Andres Tarasco Acuna
+ShortDescription: Automatically generates fake source IP address headers to evade WAF filters.
+EntryPoint: build/libs/random-header-all.jar
+BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
