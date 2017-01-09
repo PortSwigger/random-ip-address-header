@@ -21,7 +21,7 @@ public class HttpListener implements IHttpListener
 		if (extension.isEnabled ())
 		{
 			if (messageIsRequest && 
-					(!extension.stayInScope () || (extension.stayInScope () && extension.inScope (messageInfo.getUrl ()))))
+					(!extension.stayInScope () || (extension.stayInScope () && extension.inScope (this.extension.getExtensionHelpers().analyzeRequest(messageInfo).getUrl ()))))
 			{
 				java.util.List <RandomHeader> headerList = this.extension.getRandomHeaderList ();
 				
