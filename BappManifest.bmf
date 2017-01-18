@@ -7,5 +7,5 @@ MinPlatformVersion: 0
 ProOnly: False
 Author: Andres Tarasco Acuna
 ShortDescription: Automatically generates fake source IP address headers to evade WAF filters.
-EntryPoint: build/libs/random-header-all.jar
-BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
+EntryPoint: build/libs/random-ip-address-header-all.jar
+BuildCommand: gradle fatJar
