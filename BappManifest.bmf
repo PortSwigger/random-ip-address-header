@@ -1,6 +1,7 @@
 Uuid: 3a656c1be14148c6bf95642af42eb854
 ExtensionType: 1
 Name: Random IP Address Header
+RepoName: random-ip-address-header
 ScreenVersion: 1.0
 SerialVersion: 1
 MinPlatformVersion: 0
